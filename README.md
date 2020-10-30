@@ -1,9 +1,9 @@
 # dictAnalyzer
 
-Модуль для анализа словарей.
+Module for analyzing dictionaries based on 5 different structures. There are also classes used for the analysis.
 
-Описание
-Присутствуют классы словарей, основанных на 5 разных структурах. Так же Присутствуют классы, используемые для проеведения анализа.
+Starting measurement and plotting:
+    python makeAnalytics.py --measuring
 
-Запуск измерения и построения графиков: python makeAnalytics.py --measuring
-Запуск тестов: pytest test_dict.py
+Running tests:
+    pytest test_dict.py
